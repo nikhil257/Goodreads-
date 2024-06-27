@@ -6,6 +6,7 @@
 html, body{
     width: 100%;
     height: 100%;
+    overflow-x: hidden;
 }
 
 .main{
@@ -13,7 +14,6 @@ html, body{
     width: 100%;
     background-color: rgb(244, 241, 234);
     font-family: gilroy;
-    /* z-index: -2; */
     position: fixed;
 }
 nav{
@@ -68,6 +68,9 @@ nav > h1 > span{
     border-radius: 50px;
     padding:10px 30px;
     border:1px solid transparent;
+}
+nav > span > i {
+    display:none;
 }
 .content{
     width: 100%;
@@ -316,6 +319,7 @@ nav > h1 > span{
     display: flex;
     justify-content: space-between;
     align-items: last baseline;
+    flex-wrap: wrap;
 }
 .seller-thumbnail{
     width: 100%;

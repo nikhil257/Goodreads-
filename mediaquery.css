@@ -1,0 +1,130 @@
+@media screen and (max-width:600px){
+    body{
+        width: 100%;
+        height: 100%;
+        overflow-x: hidden;
+    }
+    .main{
+        width: 100%;
+        height: 100%;
+        position: initial;
+    }
+    nav{
+        width: 100%;
+        height:10%;
+        font-size: 15px;
+        padding:5px 10px;
+    }
+    .middle > a{
+        display: none;
+    }
+    .right-nav{
+        display: none;
+    }
+    nav > span > i{
+        display: initial;
+    }
+    .content{
+        width: 100%;
+        height:80%;
+        padding: 10px 10px;
+        display: flex;
+        flex-direction: column;
+        margin-top:40px;
+    }
+    .content .text-content{
+        width: 100%;
+        text-align: center;
+    }
+    .content .text-content > .next-read{
+        font-size:10px;
+    }
+    .text-content h1{
+        font-size:22px;
+        text-align: center;
+    }
+    .text-content p{
+        font-size:13px;
+    }
+    .text-content > input{
+        width: 90%;
+        padding:8px;
+    }
+    .join{
+        font-size:12px;
+        padding:8px 15px;
+    }
+    .text-content .browse{
+        font-size:12px;
+        padding:8px 15px;
+        margin-left:10px;
+    }
+    .video-content{
+        width: 70%;
+    }
+
+    .page2{
+        width:100%;
+        position: initial;
+        padding:15px 10px;
+    }
+    .page2 > button{
+        font-size:12px;
+        padding:8px 10px;
+    }
+    .page2 > h2{
+        font-size: 22px;
+    }
+    .page2 > p{
+        width: 100%;
+        font-size: 13px;
+    }
+    .connect{
+        display: flex;
+        flex-wrap: wrap;
+        margin:50px 0px;
+        padding:0px;
+    }
+    .book{
+        width: 45%;
+    }
+    .book > h3{
+        font-size:15px;
+    }
+    .book > i{
+        font-size: 16px;
+        margin:0px 0px;
+    }
+    .book > p{
+        font-size:12px;
+    }
+    .friends{
+        width: 45%;
+    }
+    .friends > h3{
+        font-size:15px;
+    }
+    .friends > i{
+        font-size: 16px;
+        margin:0px 0px;
+    }
+    .friends > p{
+        font-size:12px;
+    }
+    .review{
+        width: 100%;
+        text-align: center;
+        margin-top: 30px;
+    }
+    .review > h3{
+        font-size:15px;
+    }
+    .review > i{
+        font-size: 16px;
+        margin:0px 0px;
+        vertical-align: top;
+    }
+    .review > p{
+        font-size:12px;
+    }
+}
