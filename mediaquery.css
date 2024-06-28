@@ -67,6 +67,7 @@
         width:100%;
         position: initial;
         padding:15px 10px;
+        text-align: center;
     }
     .page2 > button{
         font-size:12px;
@@ -74,10 +75,12 @@
     }
     .page2 > h2{
         font-size: 22px;
+        text-align: center;
     }
     .page2 > p{
         width: 100%;
         font-size: 13px;
+        text-align: center;
     }
     .connect{
         display: flex;
@@ -126,5 +129,164 @@
     }
     .review > p{
         font-size:12px;
+    }
+    .discover{
+        margin-bottom: 10px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .discover > .img > img{
+        width: 350px;
+    }
+    .img{
+        width: 350px;
+        height:100px;
+        margin-bottom:14px;
+    }
+    .img-text{
+        width: 100%;
+    }
+    .img-text > .close{
+        padding:8px 10px;
+        font-size:12px;
+    }
+    .img-text h1{
+        font-size:22px;
+        margin:15px 0px;
+    }
+    .img-text p{
+        font-size: 13px;
+    }
+    .heading{
+        display: flex;
+        flex-direction: column;
+        gap:20px;
+    }
+    .books-container{
+        margin-top:30px;
+    }
+    .books-container h1{
+        font-size: 18px;
+        width: 100%;
+    }
+    .links{
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .links a{
+        font-size: 12px;
+    }
+    .book-frame{
+        width: 100%;
+        height:100%;
+        display: flex;
+        flex-wrap: wrap;
+        margin-top:18px;
+    }
+    .book-frame > .thumbnail{
+        width:50%;
+        height:20%;
+        margin-top:20px;
+    }
+    .thumbnail > img{
+        width:150px;
+        height:200px;
+    }
+    .details{
+        width: 150px;
+        margin: 10px 0px;
+        font-size: 13px;;
+    }
+    .details > .price{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        font-size: 13px;
+    }
+    .details button{
+        margin-top:8px;
+    }
+    .best-seller{
+        height:100%;
+        padding:10px;
+        margin-top:30px;
+    }
+    .seller-thumbnail{
+        padding:0px;
+        width: 100%;
+        height:100%;
+        display: flex;
+        flex-wrap: wrap;
+        margin-top:30px;
+        gap:20px;
+    }
+    .head h1{
+        font-size:22px;
+    }
+    .head a{
+        font-size:14px;
+    }
+    .reviews{
+        margin-top: 20px;
+        padding:0;
+    }
+    .users-say h1{
+        font-size:18px;
+    }
+    .main-tab{
+        margin-top:18px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap:10px;
+        flex-direction: column;
+    }
+    .main-tab > i{
+        display: none;
+    }
+    .user{
+        width:100%;
+        height:100px;
+        padding:10px;
+        font-size:12px;
+    }
+    .advertisement{
+        margin-top:30px;
+    }
+    .content-last{
+        width: 100%;
+        padding:20px 15px;
+        font-size: 12px;
+    }
+    .footer{
+        margin-top:30px;
+        padding: 10px;
+    }
+    .footer-content{
+        display: flex;
+        flex-direction: column;
+    }
+    .footer-content > ul{
+        width: 100%;
+        font-size: 12px;
+        display: flex;
+        gap:10px;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .footer >ul > span {
+        width: 100%;
+    }
+    .footer-content > ul > span >li{
+        line-height: initial;
+        text-align: left;
+    }
+    .download{
+        width: 100%;
+        font-size:12px;
+        margin-top:30px;
     }
 }
