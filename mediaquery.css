@@ -272,7 +272,7 @@
         width: 100%;
         font-size: 12px;
         display: flex;
-        gap:10px;
+        gap:25px;
         flex-wrap: wrap;
         align-items: center;
         justify-content: space-between;
@@ -287,6 +287,308 @@
     .download{
         width: 100%;
         font-size:12px;
+        margin-top:30px;
+    }
+}
+@media (min-width: 601px) and (max-width:1024px){
+    body{
+        width: 100%;
+        height: 100%;
+        overflow-x: hidden;
+    }
+    .main{
+        width: 100%;
+        height: 100%;
+        position: initial;
+    }
+    nav{
+        width: 100%;
+        height:10%;
+        font-size: 18px;
+        padding:10px 15px;
+    }
+    .middle > a{
+        display: none;
+    }
+    .right-nav{
+        display: none;
+    }
+    nav > span > i{
+        display: initial;
+    }
+    .content{
+        width: 100%;
+        height:auto;
+        padding: 15px 15px;
+        display: flex;
+        flex-direction: column;
+        margin-top:60px;
+    }
+    .content .text-content{
+        width: 100%;
+        text-align: center;
+    }
+    .content .text-content > .next-read{
+        font-size:15px;
+    }
+    .text-content h1{
+        font-size:28px;
+        text-align: center;
+    }
+    .text-content p{
+        font-size:18px;
+    }
+    .text-content > input{
+        width: 90%;
+        padding:14px;
+    }
+    .join{
+        font-size:18px;
+        padding:10px 15px;
+    }
+    .browse{
+        font-size:48px;
+        padding:10px 15px;
+    }
+    .text-content .browse{
+        font-size:15px;
+        padding:8px 15px;
+        margin-left:10px;
+        margin-bottom:70px;
+    }
+    .video-content{
+        width: 90%;
+    }
+
+    .page2{
+        width:100%;
+        position: initial;
+        padding:15px 10px;
+        text-align: center;
+    }
+    .page2 > button{
+        font-size:15px;
+        padding:10px 15px;
+    }
+    .page2 > h2{
+        font-size: 28px;
+        text-align: center;
+    }
+    .page2 > p{
+        width: 100%;
+        font-size: 18px;
+        text-align: center;
+    }
+    .connect{
+        display: flex;
+        flex-wrap: wrap;
+        margin:50px 0px;
+        padding:0px;
+    }
+    .book{
+        width: 45%;
+    }
+    .book > h3{
+        font-size:24px;
+    }
+    .book > i{
+        font-size: 24px;
+        margin:0px 0px;
+    }
+    .book > p{
+        font-size:18px;
+    }
+    .friends{
+        width: 45%;
+    }
+    .friends > h3{
+        font-size:24px;
+    }
+    .friends > i{
+        font-size: 24px;
+        margin:0px 0px;
+    }
+    .friends > p{
+        font-size:18px;
+    }
+    .review{
+        width: 100%;
+        text-align: center;
+        margin-top: 30px;
+    }
+    .review > h3{
+        font-size:24px;
+    }
+    .review > i{
+        font-size: 24px;
+        margin:0px 0px;
+        vertical-align: top;
+    }
+    .review > p{
+        font-size:18px;
+    }
+    .discover{
+        margin-bottom: 10px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .discover > .img > img{
+        width: 400px;
+    }
+    .img{
+        width: 350px;
+        height:100px;
+        margin-bottom:20px;
+        overflow: hidden;
+    }
+    .img-text{
+        width: 100%;
+    }
+    .img-text > .close{
+        padding:10px 15px;
+        font-size:15px;
+    }
+    .img-text h1{
+        font-size:28px;
+        margin:20px 0px;
+    }
+    .img-text p{
+        font-size: 18px;
+    }
+    .heading{
+        display: flex;
+        flex-direction: column;
+        gap:20px;
+    }
+    .books-container{
+        margin-top:40px;
+    }
+    .books-container h1{
+        font-size: 26px;
+        width: 100%;
+    }
+    .links{
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .links a{
+        font-size: 18px;
+    }
+    .book-frame{
+        width: 100%;
+        height:100%;
+        display: flex;
+        flex-wrap: wrap;
+        margin-top:22px;
+    }
+    .book-frame > .thumbnail{
+        width:50%;
+        height:30%;
+        margin-top:20px;
+    }
+    .thumbnail > img{
+        width:250px;
+        height:300px;
+    }
+    .details{
+        width: 250px;
+        margin: 10px 0px;
+        font-size: 18px;;
+    }
+    .details > .price{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        font-size: 18px;
+    }
+    .details button{
+        margin-top:8px;
+        font-size:18px;
+        padding:10px 15px;
+        vertical-align: middle;
+    }
+    .best-seller{
+        height:100%;
+        padding:10px;
+        margin-top:40px;
+    }
+    .seller-thumbnail{
+        padding:0px;
+        width: 100%;
+        height:100%;
+        display: flex;
+        flex-wrap: wrap;
+        margin-top:30px;
+        gap:20px;
+    }
+    .head h1{
+        font-size:28px;
+    }
+    .head a{
+        font-size:18px;
+    }
+    .reviews{
+        margin-top: 20px;
+        padding:0;
+    }
+    .users-say h1{
+        font-size:28px;
+        margin:14px 0px;
+    }
+    .main-tab{
+        margin-top:20px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap:15px;
+        flex-direction: column;
+    }
+    .main-tab > i{
+        display: none;
+    }
+    .user{
+        width:100%;
+        height:170px;
+        padding:10px;
+        font-size:18px;
+    }
+    .advertisement{
+        margin-top:30px;
+    }
+    .content-last{
+        width: 100%;
+        padding:20px 15px;
+        font-size: 18px;
+    }
+    .footer{
+        margin-top:30px;
+        padding: 20px;
+    }
+    .footer-content{
+        display: flex;
+        flex-direction: column;
+    }
+    .footer-content > ul{
+        width: 100%;
+        font-size: 18px;
+        display: flex;
+        gap:25px;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .footer >ul > span {
+        width: 100%;
+    }
+    .footer-content > ul > span >li{
+        line-height: initial;
+        text-align: left;
+    }
+    .download{
+        width: 100%;
+        font-size:20px;
         margin-top:30px;
     }
 }
